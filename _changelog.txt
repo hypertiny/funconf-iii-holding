@@ -1,4 +1,0 @@
-# 20/03/2012 # Version 1
-
-# 20/03/2012 # Version 1.1
-  updated css/style.css
