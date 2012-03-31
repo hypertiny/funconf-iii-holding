@@ -33,14 +33,22 @@
       <img src="im/funconf-12.png" class="annimateFunconf annimateFunconf6" alt="Funconf III" />
       <img src="im/funconf-13.png" class="annimateFunconf annimateFunconf7" alt="Funconf III" />
     </h1>
-    <form class="form-horizontal">
+    <form id="interest-form"
+          class="form-horizontal"
+          action="http://tito.dev/:/funconf-iii/interested_users"
+          method="POST">
       <fieldset>
         <legend>Find out when tickets go on sale:</legend>
         <div class="control-group">
-          <label class="control-label hidden" for="appendedPrependedInput">Email address</label>
+          <label class="control-label hidden" for="email">Email address</label>
           <div class="controls">
             <div class="input-append">
-              <input class="" id="appendedPrependedInput" size="16" type="text" placeholder="Your email address"><button class="btn" type="button">Sign up</button>
+              <input name="interested_user[email]"
+                     id="email"
+                     size="16"
+                     type="text"
+                     placeholder="Your email address">
+                     <button class="btn" type="submit">Sign up</button>
             </div>
           </div>
         </div>
