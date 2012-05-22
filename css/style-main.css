@@ -802,7 +802,7 @@ html, body {
 }
 
 #tickets {
-  background: transparent url(../im/ticket.png) no-repeat scroll 0 0;
+  background: transparent url(../im/ticket-main.png) no-repeat scroll 0 0;
   left: 50%;
   height: 454px;
   opacity: 0;
