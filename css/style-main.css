@@ -823,6 +823,23 @@ html, body {
   width: 400px;
 }
 
+.unavailable {
+  margin: 7px auto;
+  display: block;
+  width: 430px;
+  float: none;
+}
+
+#tickets p, .unavailable {
+  color: #4c431c;
+  font-size: 1.0em;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+  text-transform: uppercase;
+  width: 400px;
+}
+
 #tickets > p {
   margin: 300px auto 0;
 }
