@@ -188,6 +188,18 @@ td { vertical-align: top; }
   to {-moz-transform:rotate(-5deg);-moz-transform-origin: 0 100%;}
 }
 
+@-webkit-keyframes kf-basho {
+  from {top:-120px;}
+  50% {top:-110px;}
+  to {top:-120px;}
+}
+
+@-moz-keyframes kf-basho {
+  from {top:-120px;}
+  50% {top:-110px;}
+  to {top:-120px;}
+}
+
 @-webkit-keyframes kf-fadeout {
   from {opacity:1;}
   90% {opacity:1;}
@@ -1089,6 +1101,34 @@ html, body {
   margin-left: -187px;
   position: absolute;
   top: -98px;
+  z-index: 50;
+}
+
+#basho {
+  left: 50%;
+  margin-left: 225px;
+  position: absolute;
+  top: -120px;
+  z-index: 50;
+  
+  /* animation */
+    -webkit-animation-name: kf-basho;
+    -moz-animation-name: kf-basho;
+    -webkit-animation-duration: 4s;
+    -moz-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-timing-function: ease-in-out;
+    -webkit-animation-direction: alternate;
+    -moz-animation-direction: alternate;
+}
+
+#basho-anchor {
+  left: 50%;
+  margin-left: 238px;
+  position: absolute;
+  top: -44px;
   z-index: 50;
 }
 
